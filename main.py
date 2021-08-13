@@ -1,5 +1,8 @@
 from NumbersApi import NumbersApi
+
+
 print("Enter a number or write 'r' for a random fact.")
+
 while True:
     number = input()
     if number != 'r':
@@ -12,7 +15,7 @@ while True:
             break
     else:
         print(NumbersApi().get_random_number_fact())
-
+        break
 
 
 
